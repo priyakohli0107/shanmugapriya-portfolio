@@ -1296,3 +1296,310 @@ body.scrolled .nav-links a {
     display: flex;
   }
 }
+
+/* Design Decisions */
+
+.decision-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:24px;
+    margin-top:30px;
+}
+
+.decision-card{
+    background:#fff;
+    border-radius:16px;
+    padding:24px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.08);
+    border-left:5px solid #3B3BBF;
+    transition:.3s;
+}
+
+.decision-card:hover{
+    transform:translateY(-5px);
+}
+
+.decision-card h3{
+    color:#3B3BBF;
+    margin-bottom:12px;
+    font-size:22px;
+}
+
+.decision-card p{
+    color:#555;
+    line-height:1.8;
+}
+
+/* ======================================================
+Cross-functional Collaboration
+====================================================== */
+
+.collaboration-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+gap:30px;
+margin-top:30px;
+
+}
+
+.collaboration-card{
+
+background:#fff;
+padding:28px;
+border-radius:18px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.collaboration-card h3{
+
+color:#3730A3;
+margin-bottom:18px;
+
+}
+
+.collaboration-card ul{
+
+padding-left:22px;
+line-height:2;
+
+}
+
+
+
+/* ======================================================
+Challenges
+====================================================== */
+
+.challenge-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(360px,1fr));
+gap:28px;
+margin-top:35px;
+
+}
+
+.challenge-card{
+
+background:#fff;
+padding:28px;
+border-radius:18px;
+box-shadow:0 12px 35px rgba(0,0,0,.08);
+border-top:5px solid #3730A3;
+
+}
+
+.challenge-card h3{
+
+color:#3730A3;
+margin-bottom:24px;
+
+}
+
+.challenge-block,
+.solution-block,
+.outcome-block{
+
+margin-bottom:22px;
+
+}
+
+.challenge-block h4{
+
+color:#d97706;
+
+}
+
+.solution-block h4{
+
+color:#2563eb;
+
+}
+
+.outcome-block h4{
+
+color:#16a34a;
+
+}
+
+.challenge-card p{
+
+line-height:1.8;
+color:#555;
+
+}
+
+/* ======================================================
+Confidential Client Project
+====================================================== */
+
+.confidential-notice{
+
+    margin:50px 0;
+
+}
+
+.confidential-card{
+
+    display:flex;
+    gap:24px;
+    align-items:flex-start;
+
+    background:#FFF8E7;
+
+    border-left:6px solid #F59E0B;
+
+    border-radius:18px;
+
+    padding:28px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.confidential-icon{
+
+    font-size:42px;
+    line-height:1;
+    flex-shrink:0;
+
+}
+
+.confidential-content h3{
+
+    color:#8A4B08;
+    margin-bottom:16px;
+    font-size:24px;
+
+}
+
+.confidential-content p{
+
+    color:#555;
+    line-height:1.9;
+    margin-bottom:16px;
+
+}
+
+.confidential-content p:last-child{
+
+    margin-bottom:0;
+
+}
+
+/* ======================================================
+My Role & Ownership
+====================================================== */
+
+.role-intro{
+
+    margin-top:18px;
+    margin-bottom:40px;
+
+    color:#555;
+
+    line-height:1.9;
+
+}
+
+.ownership-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+    gap:28px;
+
+}
+
+.ownership-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:28px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    border-top:5px solid #3730A3;
+
+}
+
+.ownership-card:hover{
+
+    transform:translateY(-6px);
+
+}
+
+.ownership-icon{
+
+    font-size:42px;
+
+    margin-bottom:18px;
+
+}
+
+.ownership-card h3{
+
+    color:#3730A3;
+
+    margin-bottom:18px;
+
+    font-size:22px;
+
+}
+
+.ownership-card ul{
+
+    padding-left:20px;
+
+    line-height:2;
+
+    color:#555;
+
+}
+
+/* ======================================================
+Research
+====================================================== */
+
+.research-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+margin-top:30px;
+
+}
+
+.research-card{
+
+background:#fff;
+padding:24px;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.research-card h4{
+
+color:#3730A3;
+margin-bottom:18px;
+
+}
+
+.research-card ul{
+
+padding-left:20px;
+line-height:2;
+
+}
+
+
+
+
